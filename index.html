@@ -1,0 +1,210 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #00ff00; /* Green text for console effect */
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00ff00;
+            padding: 1em 0;
+            text-align: center;
+            border-bottom: 1px solid #008000;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #00ff00;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #00ff00;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00b300;
+        }
+
+        /* Main Content */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            border-radius: 8px;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-bottom: 1px dashed #008000;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #00ff00;
+        }
+
+        /* Project */
+        .project {
+            border: 1px solid #008000;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin-bottom: 5px;
+            color: #00ff00;
+        }
+
+        /* Skills */
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills ul li {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 5px 10px;
+            background-color: rgba(0, 128, 0, 0.2);
+            border: 1px solid #008000;
+            border-radius: 5px;
+            color: #00ff00;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00ff00;
+            text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #008000;
+        }
+
+        /* Background */
+        body {
+            background-image: url('https://images.unsplash.com/photo-1531306728370-e2dad01465e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+
+        /* Font */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sci-Fi Portfolio</h1>
+        <p>B.Tech Final Year - AI/ML Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a final year B.Tech student with a strong interest in Artificial Intelligence and Machine Learning. I am passionate about exploring the possibilities of AI and its potential to transform the future.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 1">
+                <h3>Project 1: AI-Powered Anomaly Detection</h3>
+                <p>Developed an AI model to detect anomalies in a dataset.</p>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 2">
+                <h3>Project 2: Generative AI Art</h3>
+                <p>Created a generative AI model to produce unique digital art.</p>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 3">
+                <h3>Project 3: AI-Driven Chatbot</h3>
+                <p>Designed and implemented an AI-driven chatbot.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>TensorFlow</li>
+                <li>Keras</li>
+                <li>Scikit-learn</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            <p>GitHub: github.com/yourusername</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Sci-Fi Portfolio
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+```
